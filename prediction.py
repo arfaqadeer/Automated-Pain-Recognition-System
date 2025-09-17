@@ -18,7 +18,7 @@ sensor_names = ["Bvp", "Eda_E4", "Resp", "Ecg", "Eda_RB", "Emg"]
 num_repetitions = 8
 
 # === Input and Output Paths ===
-data_file = Path("./dataset/PMED/PMHDB/raw-data/S_03-synchronised-data.csv")  # Change to .xlsx if needed
+data_file = Path("./dataset/PMED/PMHDB/raw-data/S_01-synchronised-data.csv")  # Change to .xlsx if needed
 np_dir = Path("dataset", "npy-dataset")
 
 # === Helper Functions ===
